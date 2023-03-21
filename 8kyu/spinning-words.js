@@ -7,9 +7,7 @@ function SpinningWords(string) {
     }
   }
 
-  const finalPhrase = splitWords.join(' ');
-  
-  console.log(finalPhrase);
+  return splitWords.join(' ');
 }
 
 SpinningWords("realizando teste");
